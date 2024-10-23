@@ -14,7 +14,7 @@ def generate_random_point_cloud(num_points=5000, num_shapes=1):
     points = []
     
     # Generate multiple shapes
-    for * in range(num*shapes):
+    for _ in range(num_shapes):
         # Randomly choose a shape type
         shape_type = np.random.choice(['sphere', 'cube', 'plane'])
         # Calculate number of points for this shape
